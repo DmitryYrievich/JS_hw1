@@ -23,4 +23,9 @@ if (userName =='Админ') {
 	}	else {
 		alert( 'Пароль не верен' );
     }
+
+} else if (userName == null) { 
+  alert( 'Вход отменен' );
+} else {
+  alert( 'Я вас не знаю' );
 }    
